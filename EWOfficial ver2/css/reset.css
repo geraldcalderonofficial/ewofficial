@@ -1,0 +1,88 @@
+/* main CSS Document */
+/* general styling first */
+/* reset css styles individually instead of universal selector. */
+/*html, body{
+	margin: 0;
+	padding: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	border-left:0;
+}*/
+span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd,
+fieldset, form, label, legend,
+caption {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+body {
+	background: white;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	color: #7C6A55;
+	font-size: 11px;
+	line-height:16px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+/* end reset styles */
+
+/* clearing technique */
+.clearfix:after {
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden;
+}
+.clearfix {display:inline-block;}
+/* mac hide \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+ /* End hide */
+/*........... do not change or amalgamate the above clearfix styles ......*/
+
+h1,h2,h3,h4,h5,h6{margin-bottom:0px}
+a img,img{border:none}
+a{
+	text-decoration:underline;
+	color:#b2006f;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:bold;
+}
+h1{font-size:20px}/* 26px */
+h2{font-size:18px}/* 24px */
+h3{font-size:16px}/* 22px */
+h4{font-size:14px}/* 20px */
+h5{font-size:12px}/* 18px */
+h6{font-size:11px}/* 16px */
+
+p {font-size:11px;}
+
+body{
+	font-size: 11px; 
+	text-align:center;/* for ie5.+*/
+}
+
+
+
